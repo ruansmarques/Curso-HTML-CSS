@@ -1,0 +1,1 @@
+Aqui está minhas primeiras produções em puro HTML para familiarizar com a linguagem. Arquivo criado com 2 dias de estudos pelo Curso em Vídeo.
