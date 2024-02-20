@@ -1,7 +1,9 @@
 @charset "UTF-8";
 
 body {
-    background-color: rgb(128, 255, 255);
+    background-color: #1f2020;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: lightcyan;
 }
 
 nav ul {
@@ -13,7 +15,7 @@ nav ul {
 }
 
 main{
-    background-color: rgb(224, 255, 255);
+    background-color: #3c3c3c;
     width: 1080px;
     padding: 20px;
     margin: auto;
@@ -21,18 +23,24 @@ main{
 }
 
 h1 {
+    font-size: 30px;
     text-align: center;
 }
 
 h2 {
-    background-color: rgb(0, 0, 255); color: rgb(255, 255, 255)
+    font-size: 24px;
+}
+
+p {
+    font-size: 15px;
+    text-align: justify;
 }
 
 a {
-    color: black;
+    color: lightcyan;
     text-decoration: none;    
 }
 
 a:hover {
-    color: blue;
+    color: lightseagreen;
 }
