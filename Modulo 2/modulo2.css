@@ -1,8 +1,22 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Sobiscuit';
+    src: url('fonts/Sobiscuit.otf') format('opentype'), url('fonts/Sobiscuit.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bunny Ear';
+    src: url('fonts/Bunny\ Ear.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #1f2020;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Cambria, Cochin, Georgia, Times, Times New Roman, serif';
     color: lightcyan;
 }
 
@@ -20,6 +34,10 @@ main{
     padding: 20px;
     margin: auto;
     border-radius: 10px;
+}
+
+main img {
+    border-radius: 5px;
 }
 
 h1 {
@@ -49,4 +67,12 @@ a:hover {
     text-align: center;
     list-style: none;
     padding-bottom: 20px;
+}
+
+.voltar-pagina::before {
+    content: '⬅';
+}
+
+.passar-pagina::after {
+    content: '➡';
 }
