@@ -43,6 +43,18 @@ nav {
 
 main {
     background-color: white;
+    min-width: 320px;
+    max-width: 1080px;
+    padding: 20px;
+    margin: auto;
+
+    border-radius: 10px;
+}
+
+main #bugdroid {
+    display: block;
+    margin: auto;
+    width: 50%;
 }
 
 main h1 {
@@ -51,6 +63,11 @@ main h1 {
 }
 
 main h2 {
-    color: ;
+    color: var(--cor4);
     font-family: var(--fonte-android);
+}
+
+article img {
+    width: 100%;
+
 }
