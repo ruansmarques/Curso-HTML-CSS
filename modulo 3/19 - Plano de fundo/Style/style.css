@@ -10,13 +10,37 @@ div.quadrado {
 }
 
 div#q1 {
-    background-image: url(../Images/pattern001.png);
+    background-color: red;
 }
 
 div#q2 {
-    background-image: url(../Images/pattern002.png);
+    background-color: green;
 }
 
 div#q3 {
+    background-color: blue;
+}
+
+div#q4 {
+    background-image: linear-gradient(to right, yellow, red);
+}
+
+div#q5 {
+    background-image: linear-gradient(to bottom, blue, orange);
+}
+
+div#q6 {
+    background-image: linear-gradient(to left, pink, cyan);
+}
+
+div#q7 {
+    background-image: url(../Images/pattern001.png);
+}
+
+div#q8 {
+    background-image: url(../Images/pattern002.png);
+}
+
+div#q9 {
     background-image: url(../Images/pattern003.png);
 }
