@@ -20,6 +20,17 @@ div.retangulo {
     margin: 10px;
 }
 
+div.squad {
+    background-color: lightblue;
+    border: solid black;
+    display: block;
+    border-radius: 10px;
+    height: 850px;
+    width: 1280px;
+
+    margin: 10px;
+}
+
 div#q1 {
     background-color: red;
 }
@@ -75,4 +86,12 @@ div#r3 {
 
 div#r4 {
     background-image: url(../Images/wallpaper002.jpg);
+}
+
+div#r5 {
+    background-image: url(../Images/wallpaper002.jpg);
+}
+
+div#sq-result {
+    background-image: url(../Images/wallpaper003.jpg);
 }
