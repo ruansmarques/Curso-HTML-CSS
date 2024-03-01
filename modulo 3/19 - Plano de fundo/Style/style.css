@@ -9,6 +9,15 @@ div.quadrado {
     width: 300px;
 }
 
+div.retangulo {
+    background-color: lightblue;
+    border: solid black;
+    display: block;
+    border-radius: 10px;
+    height: 300px;
+    width: 1000px;
+}
+
 div#q1 {
     background-color: red;
 }
@@ -43,4 +52,9 @@ div#q8 {
 
 div#q9 {
     background-image: url(../Images/pattern003.png);
+}
+
+div#qid {
+    background-image: url(https://www.ruansmarques.fun/img/ruansmarques-2.png);
+    background-position: center center;
 }
