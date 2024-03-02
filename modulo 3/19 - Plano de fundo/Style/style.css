@@ -31,75 +31,43 @@ div.squad {
     margin: 10px;
 }
 
-div#q1 {
-    background-color: red;
-}
+div#q1 {background-color: red;}
+div#q2 {background-color: green;}
+div#q3 {background-color: blue;}
 
-div#q2 {
-    background-color: green;
-}
+div#q4 {background-image: linear-gradient(to right, yellow, red);}
+div#q5 {background-image: linear-gradient(to bottom, blue, orange);}
+div#q6 {background-image: linear-gradient(to left, pink, cyan);}
 
-div#q3 {
-    background-color: blue;
-}
-
-div#q4 {
-    background-image: linear-gradient(to right, yellow, red);
-}
-
-div#q5 {
-    background-image: linear-gradient(to bottom, blue, orange);
-}
-
-div#q6 {
-    background-image: linear-gradient(to left, pink, cyan);
-}
-
-div#q7 {
-    background-image: url(../Images/pattern001.png);
-}
-
-div#q8 {
-    background-image: url(../Images/pattern002.png);
-}
-
-div#q9 {
-    background-image: url(../Images/pattern003.png);
-}
+div#q7 {background-image: url(../Images/pattern001.png);}
+div#q8 {background-image: url(../Images/pattern002.png);}
+div#q9 {background-image: url(../Images/pattern003.png);}
 
 div#qid {
     background-image: url(https://www.ruansmarques.fun/img/ruansmarques-2.png);
-    background-position: center center;
-}
+    background-position: center center;}
+
+/* Sessão de visualização de posições */
 
 div#r1 {
     background-image: url(../Images/wallpaper003.jpg);
-    background-position: center center;
-}
-
+    background-position: center center;}
 div#r2 {
     background-image: url(../Images/wallpaper003.jpg);
-    background-position: top left;
-}
-
+    background-position: top left;}
 div#r3 {
     background-image: url(../Images/wallpaper003.jpg);
-    background-position: top right;
-}
-
+    background-position: top right;}
 div#r4 {
     background-image: url(../Images/wallpaper003.jpg);
-    background-position: bottom left;
-}
-
+    background-position: bottom left;}
 div#r5 {
     background-image: url(../Images/wallpaper003.jpg);
-    background-position: bottom right;
-}
-
+    background-position: bottom right;}
 div#sq-result {
-    background-image: url(../Images/wallpaper003.jpg);
-}
+    background-image: url(../Images/wallpaper003.jpg);}
+
+/* Sessão de alinhamento */
 
 div.viewheight {
     height: 80vh;
@@ -112,6 +80,3 @@ div.viewheight {
     background-position: center center;
 }
 
-section.viewheight article {
-    text-align: center;
-}
