@@ -73,25 +73,45 @@ div#qid {
 }
 
 div#r1 {
-    background-image: url(../Images/wallpaper002.jpg);
+    background-image: url(../Images/wallpaper003.jpg);
+    background-position: center center;
 }
 
 div#r2 {
-    background-image: url(../Images/wallpaper002.jpg);
+    background-image: url(../Images/wallpaper003.jpg);
+    background-position: top left;
 }
 
 div#r3 {
-    background-image: url(../Images/wallpaper002.jpg);
+    background-image: url(../Images/wallpaper003.jpg);
+    background-position: top right;
 }
 
 div#r4 {
-    background-image: url(../Images/wallpaper002.jpg);
+    background-image: url(../Images/wallpaper003.jpg);
+    background-position: bottom left;
 }
 
 div#r5 {
-    background-image: url(../Images/wallpaper002.jpg);
+    background-image: url(../Images/wallpaper003.jpg);
+    background-position: bottom right;
 }
 
 div#sq-result {
     background-image: url(../Images/wallpaper003.jpg);
+}
+
+div.viewheight {
+    height: 80vh;
+    border: 2px dashed black;
+    margin: 10px;
+
+    background-image: url(https://gustavoguanabara.github.io/html-css/imagens/mascote.png);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+section.viewheight article {
+    text-align: center;
 }
